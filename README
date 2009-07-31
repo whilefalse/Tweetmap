@@ -1,6 +1,6 @@
 This is a little app I made while playing about with the Twitter API.
 
-It displays trending topics as a treemap. To see it in action go to http://tweetmap.sites.djangohosting.ch/x
+It displays trending topics as a treemap. To see it in action go to http://tweetmap.sites.djangohosting.ch/
 
 Due to the limitations of the Twitter API, it uses some incredibly dodgy and innacurate measurements to get the relative importance of trending topics (see for yourself!)
 
