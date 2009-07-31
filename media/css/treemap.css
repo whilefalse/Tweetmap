@@ -1,0 +1,51 @@
+body{
+    background-color:#9AE4E8;
+    margin:0;
+    padding:0;
+}
+div.treemap
+	{
+    margin-left:auto;
+    margin-right:auto;
+	margin-bottom: 4px;
+	font-family: Lucida Grande, Lucida Sans Unicode, Tahoma, Arial, sans serif;
+	}
+	
+div.treemap div.node
+	{
+	float: left;
+	clear: none;
+	//background-color: #0084B4;
+	}
+	
+div.treemap a.textnode
+	{
+	display: block;
+	font-size: 10px;
+	text-align: center;
+	width: 100%;
+	height: 100%;
+	background-image: url(../img/treemap/textnode-border.gif);
+	display: block;
+	float: left;
+	color: #fff;
+	overflow: hidden;
+	//background-color: #0084B4;
+	text-decoration: none;
+	}
+	
+div.treemap a.textnode:hover
+	{
+	background-image: url(../img/treemap/textnode-border-hover.gif);
+	}
+	
+div.treemap a.proper
+	{
+	//background-color: #0084B4;
+	}
+	
+div.treemap a.textnode img
+	{
+	vertical-align: middle; 
+	border: none;
+	}

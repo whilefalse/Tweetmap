@@ -1,0 +1,5 @@
+This is a little app I made while playing about with the Twitter API.
+
+It displays trending topics as a treemap. Due to the limitations of the Twitter API, it uses some incredibly dodgy and innacurate measurements to get the relative importance of trending topics (see for yourself!)
+
+It uses the treemap code from http://monkey.org/~jose/blog/viewpage.php?page=treemappy_0_9, which is BSD licenced.
